@@ -1,0 +1,79 @@
+.bar.bar-nav{
+	background:#539ffd;
+	&>a{
+		color:#fff;
+	}
+	&>h1{
+		color:#fff;
+	}
+}
+.zm-container{
+	font-size:0.75rem;
+	background:#fff;
+	padding:2.0rem;
+	height:100%;
+}
+.zm-box{
+    display: box;   /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+    display: flex;          /* 新版本语法: Opera 12.1, Firefox 22+ */
+	min-height:10rem;
+	justify-content:center;
+}
+.zm-box-item{
+	width:100%;
+}
+.zm-box-item>div{
+   margin-top:2rem;
+   display: box;   /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+   display: flex;          /* 新版本语法: Opera 12.1, Firefox 22+ */
+}
+.zm-box-item>div>input{
+    margin:0 0.5rem;
+    width:5rem;
+	border:0;
+	outline:0;
+	-webkit-flex:1;
+	flex:1;
+	border-bottom:1px solid #aaa;
+	text-align:left;
+	font-size:0.75rem;
+}
+.zm-box-item>div>button{
+	width:5rem;
+}
+.send-code{
+	outline:0;
+	border:0;
+}
+.zm-line{
+	  display: -webkit-box;
+	  display: -moz-box;
+	  display: -ms-flexbox;
+	  display: -webkit-flex;	
+   display:flex;
+
+  -webkit-justify-content: center;
+  -moz-justify-content:center;
+  -ms-justify-content: center;
+  -o-justify-content: center;
+   justify-content:center;
+   margin-bottom:0.3rem;
+}
+.zm-line b{
+  width:4rem;
+  height:1px;
+  border-top:1px solid #aaa;
+}
+.zm-line b.zm-dot{
+	width:3px;
+	display:inline-block;
+    margin:0 0.5rem;
+	border-radio:1.5px;
+	height:3px;
+	border-top:1px solid #aaa;
+}
+.zm-box-item >.zm-form-link{
+	margin:0.8rem;
+	display:flex;
+	justify-content:space-between;
+}
